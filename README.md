@@ -97,7 +97,7 @@ Ressources conseillées : 4 vCPU, 8 Go RAM minimum, 30 Go disque ; 12 Go RAM rec
 
 ## Perspective d'évolution : vers un projet DevSecOps
 
-Le TP initial se concentre sur la sécurité Kubernetes. Les corrigés formateur ne sont pas publiés dans ce dépôt étudiant afin de préserver l'activité d'évaluation. Une extension pourra transformer PAYTECH en chaîne DevSecOps intégrée :
+Le TP initial se concentre sur la sécurité Kubernetes. Les corrigés ne sont pas publiés dans ce dépôt afin de préserver l'activité d'évaluation. Une extension pourra transformer PAYTECH en chaîne DevSecOps intégrée :
 
 1. **GitLab CI/CD** : pipeline de validation à chaque commit et avant déploiement.
 2. **Trivy** : scan des images, dépendances et manifestes Kubernetes ; seuils de blocage définis.
