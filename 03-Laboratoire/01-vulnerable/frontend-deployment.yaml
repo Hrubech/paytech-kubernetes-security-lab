@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: frontend
+  labels:
+    app: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      serviceAccountName: default
+      containers:
+        - name: nginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
+          securityContext:
+            privileged: true
+            runAsUser: 0
+          # Absence volontaire de requests/limits
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+  namespace: frontend
+spec:
+  selector:
+    app: web
+  ports:
+    - port: 80
+      targetPort: 80

@@ -1,0 +1,19 @@
+# Secrets and credentials
+.env
+*.kubeconfig
+kubeconfig
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local cluster and generated output
+*.log
+*.out
+coverage/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

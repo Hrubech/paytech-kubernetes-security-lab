@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: backend
+  labels:
+    app: api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api
+  template:
+    metadata:
+      labels:
+        app: api
+    spec:
+      containers:
+        - name: api
+          image: hashicorp/http-echo:1.0.0
+          args: ["-listen=:8080", "-text=PAYTECH API - lab"]
+          ports:
+            - containerPort: 8080
+          # SecurityContext et ressources volontairement absents
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: api
+  namespace: backend
+spec:
+  selector:
+    app: api
+  ports:
+    - port: 8080
+      targetPort: 8080
