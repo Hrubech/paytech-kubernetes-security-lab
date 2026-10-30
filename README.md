@@ -8,7 +8,7 @@
 
 PAYTECH est une entreprise fictive dont la plateforme web repose sur Kubernetes. Votre équipe intervient comme consultants DevSecOps pour auditer une infrastructure volontairement mal configurée, corriger les risques et démontrer l'efficacité des mesures de sécurité.
 
-> **Public cible :** Master 1 Cybersécurité / formation DevOps  
+> **Public cible :** Master Cybersécurité / formation DevOps  
 > **Durée indicative :** 4 à 6 heures  
 > **Organisation :** binômes  
 > **Niveau :** intermédiaire
