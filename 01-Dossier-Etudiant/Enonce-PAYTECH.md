@@ -1,7 +1,7 @@
 # TP — Audit et sécurisation d'un cluster Kubernetes
 ## Fil rouge : PAYTECH
 
-**Public :** Master 1 Cybersécurité  
+**Public :** Master Cybersécurité  
 **Durée indicative :** 4 à 6 heures  
 **Organisation :** binômes  
 **Environnement :** cluster Kubernetes local de laboratoire  
