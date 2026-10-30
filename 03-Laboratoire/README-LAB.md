@@ -42,7 +42,7 @@ Les images peuvent prendre quelques minutes à télécharger.
 
 ## 4. Déployer les corrections
 
-Les étudiants créent leurs propres manifestes corrigés à partir des constats et exigences de l'énoncé. Les solutions de référence sont conservées dans le guide formateur privé et ne sont pas distribuées dans ce dépôt public.
+Les étudiants créent leurs propres manifestes corrigés à partir des constats et exigences de l'énoncé. Les solutions de référence ne sont pas distribuées dans ce dépôt public.
 
 ## 5. Nettoyage
 
